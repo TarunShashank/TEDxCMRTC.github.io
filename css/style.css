@@ -15,11 +15,11 @@ section {
 	padding: 13% 0;
 	height: 100%;
 }
-c
+
 #dot-nav {
 	left: 10px;
 	top: 50%;
-	margin-top: 50%;
+	margin-top: -50px;
 	height: 100px;
 	z-index: 999;
 }
