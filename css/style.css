@@ -17,7 +17,7 @@ html * {
 body {
   font-size: 100%;
   font-family: "Ubuntu", sans-serif;
-  color: #3e3947;
+  color: #0e0c0c;
   background-color: white;
 }
 
@@ -26,7 +26,7 @@ body, html {
 }
 
 a {
-  color: #3e3947;
+  color: #f7f6f6;
   text-decoration: none;
 }
 
@@ -58,16 +58,16 @@ Main components
   padding: 2em 0;
 }
 .cd-section:nth-of-type(odd) {
-  background-color: #3e3947;
+  background-color: #232222;
 }
 .cd-section:nth-of-type(odd) p {
-  color: #898099;
+  color: #444444;
 }
 .cd-section:nth-of-type(even) {
-  background-color: #745360;
+  background-color: #da2323;
 }
 .cd-section:nth-of-type(even) p {
-  color: #bda3ad;
+  color: #d1a9a9;
 }
 .cd-section h1, .cd-section p {
   position: absolute;
@@ -128,7 +128,7 @@ Main components
 
 .no-touch #cd-vertical-nav {
   position: fixed;
-  right: 40px;
+  left: 30px;
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
@@ -139,7 +139,8 @@ Main components
   z-index: 1;
 }
 .no-touch #cd-vertical-nav li {
-  text-align: right;
+  text-align: left;
+  list-style: none;
 }
 .no-touch #cd-vertical-nav a {
   display: inline-block;
@@ -153,7 +154,7 @@ Main components
   clear: both;
 }
 .no-touch #cd-vertical-nav a span {
-  float: right;
+  float: left;
   display: inline-block;
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
@@ -181,7 +182,7 @@ Main components
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  background-color: #d88683;
+  background-color: #b31d1d;
   -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
   -moz-transition: -moz-transform 0.2s, background-color 0.5s;
   transition: transform 0.2s, background-color 0.5s;
@@ -263,11 +264,11 @@ Main components
   max-height: 90%;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  -webkit-transform-origin: right bottom;
-  -moz-transform-origin: right bottom;
-  -ms-transform-origin: right bottom;
-  -o-transform-origin: right bottom;
-  transform-origin: right bottom;
+  -webkit-transform-origin: left bottom;
+  -moz-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  -o-transform-origin: left bottom;
+  transform-origin: left bottom;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
